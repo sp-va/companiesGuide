@@ -1,0 +1,25 @@
+[project]
+name = "companies"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "spirin-vadim",email = "vadis99@ya.ru"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "alembic (>=1.16.4,<2.0.0)",
+    "fastapi (>=0.116.1,<0.117.0)",
+    "pydantic (>=2.11.7,<3.0.0)",
+    "sqlalchemy (>=2.0.42,<3.0.0)",
+    "dotenv (>=0.9.9,<0.10.0)",
+    "geoalchemy2 (>=0.18.0,<0.19.0)",
+    "psycopg2 (>=2.9.10,<3.0.0)",
+    "uvicorn (>=0.35.0,<0.36.0)",
+    "asyncpg (>=0.30.0,<0.31.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

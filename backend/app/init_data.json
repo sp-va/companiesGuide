@@ -1,0 +1,128 @@
+{
+  "buildings": [
+    {
+      "id": 1,
+      "address": "ул. Шиллера, 46 к2",
+      "location": [57.141234, 65.546953]
+    },
+    {
+      "id": 2,
+      "address": "ул. Максима Горького, 76",
+      "location": [57.14624, 65.556279]
+    },
+    {
+      "id": 3,
+      "address": "ул. 50 лет Октября, 57в",
+      "location": [57.141695, 65.590419]
+    }
+  ],
+  "activities": [
+    {
+      "id": 1,
+      "name": "Еда",
+      "parent_id": null
+    },
+    {
+      "id": 2,
+      "name": "Автомобили",
+      "parent_id": null
+    },
+    {
+      "id": 3,
+      "name": "Техника",
+      "parent_id": null
+    },
+    {
+      "id": 4,
+      "name": "Мясо",
+      "parent_id": 1
+    },
+    {
+      "id": 5,
+      "name": "Молоко",
+      "parent_id": 1
+    },
+    {
+      "id": 6,
+      "name": "Легковые",
+      "parent_id": 2
+    },
+    {
+      "id": 7,
+      "name": "Грузовые",
+      "parent_id": 2
+    },
+    {
+      "id": 8,
+      "name": "Запчасти",
+      "parent_id": 6
+    },
+    {
+      "id": 9,
+      "name": "Аксессуары",
+      "parent_id": 6
+    }
+  ],
+  "organizations": [
+    {
+      "title": "Мясной Дом",
+      "building_id": 1,
+      "activity_ids": [1, 4],
+      "phone_numbers": ["+70001112233", "70001112228"]
+    },
+    {
+      "title": "Молочная Ферма",
+      "building_id": 1,
+      "activity_ids": [1, 5],
+      "phone_numbers": ["+70002223344"]
+    },
+    {
+      "title": "Автоцентр Горького",
+      "building_id": 2,
+      "activity_ids": [2, 6, 8],
+      "phone_numbers": ["+70003334455"]
+    },
+    {
+      "title": "Грузовые Линии",
+      "building_id": 2,
+      "activity_ids": [2, 7],
+      "phone_numbers": ["+70004445566"]
+    },
+    {
+      "title": "ТехМир",
+      "building_id": 3,
+      "activity_ids": [3],
+      "phone_numbers": ["+70005556677"]
+    },
+    {
+      "title": "Автоаксессуары",
+      "building_id": 2,
+      "activity_ids": [2, 6, 9],
+      "phone_numbers": ["+70006667788"]
+    },
+    {
+      "title": "Еда и Сыры",
+      "building_id": 1,
+      "activity_ids": [1],
+      "phone_numbers": ["+70007778899"]
+    },
+    {
+      "title": "Техника Плюс",
+      "building_id": 3,
+      "activity_ids": [3],
+      "phone_numbers": ["+70008889900"]
+    },
+    {
+      "title": "Молочные Продукты",
+      "building_id": 1,
+      "activity_ids": [1, 5],
+      "phone_numbers": ["+70009990011"]
+    },
+    {
+      "title": "Автомобильный Мир",
+      "building_id": 2,
+      "activity_ids": [2],
+      "phone_numbers": ["+70001110022"]
+    }
+  ]
+}
